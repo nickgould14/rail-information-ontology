@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:Ontology1439388604838="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasDestination</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDistance -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDistance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasEncumbrance -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasEncumbrance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">hasOrigin</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasRoadTrafficCondition -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasRoadTrafficCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasStatus -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasStatus"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasTraveller -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasTraveller"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasWeather -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasWeather"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ReflexiveProperty"/>
+        <rdfs:label xml:lang="en">near</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasChildren -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasChildren"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasSuitcase -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasSuitcase"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadRoadTrafficCondition -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadRoadTrafficCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficCondition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadWeather -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Weather"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Distance -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Distance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FunctioningRailStation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FunctioningRailStation">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasStatus"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficCondition"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodWeather -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Weather"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#LongDistance -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#LongDistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Distance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#LowEncumbrancedTraveller -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#LowEncumbrancedTraveller">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Traveller"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasChildren"/>
+                        <someValuesFrom>
+                            <rdfs:Datatype>
+                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </withRestrictions>
+                            </rdfs:Datatype>
+                        </someValuesFrom>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasSuitcase"/>
+                        <someValuesFrom>
+                            <rdfs:Datatype>
+                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                                <withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </withRestrictions>
+                            </rdfs:Datatype>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MediumDistance -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MediumDistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Distance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint"/>
+        <rdfs:label xml:lang="en">RailStation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FunctioningRailStation"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FunctioningRailStation"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasStatus"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">RailTrip</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficCondition -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasRoadTrafficCondition"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasRoadTrafficCondition"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShortDistance -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShortDistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Distance"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrip"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Status -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusClosed -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusClosed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Status"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Status"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiRank -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiRank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#NetworkAccessPoint"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrip"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#near"/>
+                                        <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiRank"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Traveller -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Traveller"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                        <qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</qualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                        <qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</qualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:label xml:lang="en">Trip</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#WalkingTrip -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#WalkingTrip">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Trip"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDestination"/>
+                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasOrigin"/>
+                                <someValuesFrom>
+                                    <Class>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+                                            <Restriction>
+                                                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasWeather"/>
+                                                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodWeather"/>
+                                            </Restriction>
+                                        </intersectionOf>
+                                    </Class>
+                                </someValuesFrom>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasDistance"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShortDistance"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#hasTraveller"/>
+                        <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#LowEncumbrancedTraveller"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Weather -->
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Weather"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AirportMetrolinkStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AirportMetrolinkStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirport"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Alice -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Alice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Traveller"/>
+        <Ontology1439388604838:hasChildren rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Ontology1439388604838:hasChildren>
+        <Ontology1439388604838:hasSuitcase rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Ontology1439388604838:hasSuitcase>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AliceJourneyFromHOME -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AliceJourneyFromHOME">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+        <Ontology1439388604838:hasDistance rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToHOME"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HOMEartsCentre"/>
+        <Ontology1439388604838:hasTraveller rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Alice"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AliceJourneytoHOME -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AliceJourneytoHOME">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HOMEartsCentre"/>
+        <Ontology1439388604838:hasDistance rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToHOME"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+        <Ontology1439388604838:hasTraveller rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Alice"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Annie -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Annie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Traveller"/>
+        <Ontology1439388604838:hasChildren rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Ontology1439388604838:hasChildren>
+        <Ontology1439388604838:hasSuitcase rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</Ontology1439388604838:hasSuitcase>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AnnieJourneytoHOME -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#AnnieJourneytoHOME">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HOMEartsCentre"/>
+        <Ontology1439388604838:hasDistance rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToHOME"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+        <Ontology1439388604838:hasTraveller rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Annie"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DeansgateMetroLinkStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DeansgateMetroLinkStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToAirport -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToAirport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MediumDistance"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToHOME -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToHOME">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShortDistance"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FirstStreetShuttleBusStop -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FirstStreetShuttleBusStop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HOMEartsCentre -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HOMEartsCentre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+        <Ontology1439388604838:hasRoadTrafficCondition rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreGood"/>
+        <Ontology1439388604838:hasWeather rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysGoodWeather"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DeansgateMetroLinkStation"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#FirstStreetShuttleBusStop"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HazelGroveRailStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HazelGroveRailStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation"/>
+        <Ontology1439388604838:hasStatus rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HazelGroveRailStationStatus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HazelGroveRailStationStatus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#HazelGroveRailStationStatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#KeithJourneyFromTownHall -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#KeithJourneyFromTownHall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterTownHall"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#KeithJourneyToTownHall -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#KeithJourneyToTownHall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterTownHall"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirport -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+        <Ontology1439388604838:hasRoadTrafficCondition rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionAirportGood"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirportRailStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirportRailStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation"/>
+        <Ontology1439388604838:hasStatus rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirportRailStationStatus"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirport"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirportRailStationStatus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirportRailStationStatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterTownHall -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterTownHall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#Location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation"/>
+        <Ontology1439388604838:hasStatus rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStationStatus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStationStatus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#OxfordRoadRailStationStatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyMetroLinkStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyMetroLinkStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#MetroLinkStation"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RailStation"/>
+        <Ontology1439388604838:hasRoadTrafficCondition rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreGood"/>
+        <Ontology1439388604838:hasStatus rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStationStatus"/>
+        <Ontology1439388604838:hasWeather rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysGoodWeather"/>
+        <rdfs:label xml:lang="en">PiccadillyRailStation</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStationStatus -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStationStatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#StatusOpen"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyShuttleBusStop -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyShuttleBusStop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ShuttleBusStop"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyTaxiRank -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyTaxiRank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TaxiRank"/>
+        <Ontology1439388604838:near rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionAirportBad -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionAirportBad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadRoadTrafficCondition"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionAirportGood -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionAirportGood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreBad -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreBad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadRoadTrafficCondition"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreGood -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#RoadTrafficConditionCityCentreGood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodRoadTrafficCondition"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#SteveJourneyToAirport -->
+
+    <Thing rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#SteveJourneyToAirport">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <Ontology1439388604838:hasDestination rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#ManchesterAirport"/>
+        <Ontology1439388604838:hasDistance rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#DistanceFromPiccadillyToAirport"/>
+        <Ontology1439388604838:hasOrigin rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#PiccadillyRailStation"/>
+        <Ontology1439388604838:hasWeather rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysGoodWeather"/>
+    </Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysBadWeather -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysBadWeather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#BadWeather"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysGoodWeather -->
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#TodaysGoodWeather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2015/7/Ontology1439388604838.owl#GoodWeather"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

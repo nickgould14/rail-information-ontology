@@ -1,0 +1,751 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#"
+     xml:base="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CarefreeAndSpontaneous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CarefreeAndSpontaneous">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotCreatureOfHabit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CautiousAndThorough -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CautiousAndThorough">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicLikesSimplicity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicPlanner"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicCreatureOfHabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicCreatureOfHabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicExperienced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicExperienced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInExperienced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInExperienced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInFlexible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInFlexible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicKnowledgeable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicKnowledgeable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicLikesSimplicity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicLikesSimplicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotConfirmationSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotConfirmationSeeker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotCreatureOfHabit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotCreatureOfHabit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotKnowledgeable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotKnowledgeable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicPlanner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicPlanner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicTimeConscious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicTimeConscious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicVulnerableToDisruption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicVulnerableToDisruption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#ConfidentAndFlexible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#ConfidentAndFlexible">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicKnowledgeable"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotConfirmationSeeker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Flaneur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Flaneur">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotCreatureOfHabit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationDestinationStationStaffed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationDestinationStationStaffed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerNervous"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationLocationOfInformationDesk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationLocationOfInformationDesk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerConfirmationSeeker"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationNumberOfChanges -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationNumberOfChanges">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerLikesSimplicity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationWeather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#InformationWeather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Information"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#informs"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CarefreeAndSpontaneous"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#NervousAndInexperienced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#NervousAndInexperienced">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInExperienced"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicPlanner"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#PowerUser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#PowerUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Tourist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Tourist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerConfirmationSeeker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerConfirmationSeeker">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerFlexible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerFlexible">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerInflexible"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerInflexible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerInflexible">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInFlexible"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerLikesSimplicity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerLikesSimplicity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicLikesSimplicity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerNervous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#TravellerNervous">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#UnadventurousAndHabitual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#UnadventurousAndHabitual">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicCreatureOfHabit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInFlexible"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#hasCharacteristic"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicVulnerableToDisruption"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Alice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Alice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicFlexible"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotConfirmationSeeker"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotCreatureOfHabit"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotPlanner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Annie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Annie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicConfirmationSeeker"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicLikesSimplicity"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicPlanner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Keith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Keith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicConfirmationSeeker"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInExperienced"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicPlanner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Mo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Mo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicConfirmationSeeker"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicExperienced"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicFlexible"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicKnowledgeable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Neil -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Neil">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Steve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Steve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#Traveller"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicCreatureOfHabit"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInFlexible"/>
+        <hasCharacteristic rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicVulnerableToDisruption"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicConfirmationSeeker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicConfirmationSeeker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicConfirmationSeeker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicCreatureOfHabit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicCreatureOfHabit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicCreatureOfHabit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicExperienced -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicExperienced">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicExperienced"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicFlexible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicFlexible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicFlexible"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInExperienced -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInExperienced">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInExperienced"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInFlexible -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicInFlexible">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicInFlexible"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicKnowledgeable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicKnowledgeable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicKnowledgeable"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicLikesSimplicity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicLikesSimplicity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicLikesSimplicity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotConfirmationSeeker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotConfirmationSeeker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotConfirmationSeeker"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotCreatureOfHabit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotCreatureOfHabit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotCreatureOfHabit"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotPlanner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicNotPlanner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicNotPlanner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicPlanner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicPlanner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicPlanner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicTimeConscious -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicTimeConscious">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicTimeConscious"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicVulnerableToDisruption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#myCharacteristicVulnerableToDisruption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/55099179/ontologies/2016/7/untitled-ontology-64#CharacteristicVulnerableToDisruption"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
